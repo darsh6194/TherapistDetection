@@ -1,6 +1,9 @@
 
 # **Therapist and Child Detection with YOLO**
 
+## ** Demo Video of the predictions**
+[Watch Video Demo](https://drive.google.com/file/d/1-z6Ko-Be-8jnA89S0Xaw5ERSKK_PjwzF/view?usp=sharing)
+
 ## **Project Implementaion**
 This project was done mainly using LabelImg Annotator to annotate the images , The images was taken from Youtube using the pytube library I managed to collect 93 images from the given test videos.txt file. After the annotation of the image, the image was trained on the YOLOV8n model using pytoch and ultralytics library which works best and is the fastet object detection model taking custom.yaml as its input that links to train and the validation dataset. After the training of the the the best model was saved and used to detect the Classes.
 
