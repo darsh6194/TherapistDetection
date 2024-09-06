@@ -71,21 +71,21 @@ To run the project, execute the main script `Detect.py`. The script will:
 5. Display the video frames with the detection results and save the annotated output video.
 
 ```bash
-python calculate.py
+python Detect.py
 ```
 
 ### **Key Variables to Modify:**
 - **YOLO Model Path**: Update the model path in `calculate.py`:
   ```python
-  model = YOLO(r'D:\Detection\runs\detect\train2\weights\best.pt')
+  model = YOLO(r'models\best.pt')
   ```
 - **Input Video Path**: Update the input video path:
   ```python
-  cap = cv2.VideoCapture(r'D:\Detection\downloaded_videos\ABA Therapy - Play.mp4')
+  cap = cv2.VideoCapture(r'input\ABA Therapy - Play.mp4')
   ```
 - **Output Video Path**: The annotated video will be saved to this path:
   ```python
-  out = cv2.VideoWriter(r'D:\Detection\output\annotated_video.mp4', fourcc, 20.0, (640, 480))
+  out = cv2.VideoWriter(r'output\annotated_video.mp4', fourcc, 20.0, (640, 480))
   ```
 
 ## **How the Project Works**
@@ -110,9 +110,6 @@ python calculate.py
 
 ### **Output Video**
 - The processed video is saved with the therapist IDs and bounding boxes for both therapists and children. The bounding boxes for therapists are green, and the bounding boxes for children are blue.
-
-### **FPS Display**
-- The program calculates the frame rate (frames per second) for performance monitoring and displays it on each frame.
 
 ## **Example Output**
 
