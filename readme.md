@@ -96,7 +96,7 @@ python Detect.py
 ### **Creation of Dataset**
 -The Dataset was created using the test videos that was given in txt file, pytube was used to extract the random frames of the video and store it as dataset
 
-## ** Annotation of Image**
+## **Annotation of Image**
 -All the images was Annotated using the labelimg library the bounding labels were stored for further training
 
 ### **Therapist and Child Detection**
