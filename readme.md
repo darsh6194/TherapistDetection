@@ -1,7 +1,7 @@
 # **Therapist and Child Detection with YOLO**
 
 
-# ** Demo Video of the predictions**
+# **Demo Video of the predictions**
 [![Video Title](https://img.youtube.com/vi/9MAFBB-7QKo/0.jpg)](https://www.youtube.com/watch?v=9MAFBB-7QKo)
 
 # **Project Implementaion**
